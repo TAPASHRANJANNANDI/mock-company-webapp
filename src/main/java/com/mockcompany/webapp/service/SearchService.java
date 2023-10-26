@@ -15,6 +15,10 @@ public class SearchService {
     private final ProductItemRepository productItemRepository;
 
     @Autowired
+    public List<String> search() {
+        
+        return Collections.emptyList();
+    }
     public SearchService(ProductItemRepository productItemRepository) {
         this.productItemRepository = productItemRepository;
     }
